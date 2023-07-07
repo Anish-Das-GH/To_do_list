@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.container
+{
+    /* max-width:600px ;
+    max-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ffff;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 10%;
+    padding: 20px;
+    background-position: center; */
+
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(19,19,143,1) 43%, rgba(0,212,255,1) 100%);
+    padding: 10px;
+}
+
+.todo
+{
+    width: 70%;
+    max-width: 540px;
+    background: white;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+
+}
+
+.head
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px ;
+
+}
+
+/* .inputsec
+{
+    border: none;
+    
+    justify-content: space-between;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    
+
+} */
+
+.inp{
+    flex:1;
+    width: 60%;
+    border: none;
+    outline: none;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    background: #edeef0;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding :5px;
+    font-weight: 14px;
+}
+.btn
+{
+    display: flex;
+    font-size: 20px;
+}
+.text h3 i
+{
+    position: absolute;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
