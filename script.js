@@ -12,7 +12,7 @@ function work()
 {
 if(input.value == "")
 {
-    alert("Enter a value")
+    alert("Enter Task!!!")
 }
 else
 {
