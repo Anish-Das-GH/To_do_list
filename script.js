@@ -3,7 +3,7 @@ let btn = document.getElementById('btn')
 let text = document.getElementById('text')
 btn.addEventListener('click', work)
 input.addEventListener('keypress',function(e){
-   if (e.key == "Enter")
+   if (e.key == "Enter Task !!")
     {
       work();   
     }
